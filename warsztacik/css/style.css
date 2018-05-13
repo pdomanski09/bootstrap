@@ -9,8 +9,9 @@ section {
 	padding: 60px 0;
 }
 
-section .section-header {
+.section-header {
 	margin-bottom: 70px;
+	margin-top: 50px;
 	text-align: center;
 	width: 100%;
 }
@@ -40,6 +41,7 @@ section h3 {
 
 #main-nav {
 	background-color: transparent;
+	transition: all .5s;
 }
 
 #main-nav a.navbar-brand {
@@ -214,11 +216,32 @@ section h3 {
 
 /* PORTFOLIO - END */
 
+.img-cricle {
+	border-radius: 50%;
+	width: 100%;
+	margin-bottom: 20px;
+}
 
-
-
-
-
+.social-links {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	background-color: #382936;
+	font-size: 1.8em;
+	margin: 5px;
+	transition: all 1s;
+}
+.social-links:hover {
+	background-color: #0ed8d6;
+	color: #fff;
+}
+.team .team-description {
+	margin-top: 40px;
+}
 
 
 
