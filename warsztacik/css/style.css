@@ -105,6 +105,9 @@ html, body {
 	margin-bottom: 20px;
 	transition: all 0.7s;
 }
+.content_services {
+	margin-bottom: 50px;
+}
 .content_services .icons .fa:hover {
 	color: #0ed8d6;
 	background-color: white;
@@ -117,4 +120,77 @@ html, body {
 }
 .content_services .icons h4 {
 	margin-bottom: 20px;
+}
+.section-header {
+	margin: 0 auto;
+	text-align: center;
+}
+.section-header h2 {
+	margin: 20px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-size: 70px;
+	font-weight: 800;
+}
+.section-header p {
+	font-style: italic;
+	color: #7F7F7F;
+}
+#portfolio-image-background-1 {
+	background-image: url(../img/portfolio/box_of_cookies.jpg)
+}
+#portfolio-image-background-2 {
+	background-image: url(../img/portfolio/chaotic_paint.jpg)
+}
+#portfolio-image-background-3 {
+	background-image: url(../img/portfolio/chestnut_on_bracket.jpg)
+}
+#portfolio-image-background-4 {
+	background-image: url(../img/portfolio/child_with_blue_paint.jpg)
+}
+#portfolio-image-background-5 {
+	background-image: url(../img/portfolio/house_with_blue_doors.jpg)
+}
+#portfolio-image-background-6 {
+	background-image: url(../img/portfolio/typing_on_laptop.jpg)
+}
+#portfolio {
+	background-color: #f7f7f7;
+}
+#portfolio .portfolio-item {
+	background-color: #fff;
+}
+#portfolio .portfolio-item .portfolio-image-background {
+	background-position: center;
+	height: 300px;
+	background-size: cover;
+	position: relative;
+	transition: all 1s;
+}
+#portfolio .portfolio-image {
+	overflow: hidden;
+}
+
+#portfolio .portfolio-item .portfolio-image-background .portfolio-image-mask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(14,216,214, .4);
+	/* wyśrodkowanie elementu za pomocą flex */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	color: #fff;
+	cursor: pointer;
+	font-size: 2em;
+	opacity: 0;
+		transition: all 1s;
+}
+#portfolio .portfolio-item .portfolio-image-background:hover {
+	transform: scale(1.2);
+}
+
+#portfolio .portfolio-item .portfolio-image-background .portfolio-image-mask:hover {
+	opacity: 1;
 }
