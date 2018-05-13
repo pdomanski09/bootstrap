@@ -12,7 +12,7 @@ html, body {
 }
 
 /*Inna metoda na cieniowanie:*/
-/* background-image: linear-gradient(to bottom, rgba(0,0,0, 0.4)), rgba(0,0,0,.4), url(../img/header/png-imageopa.png); */
+/* background-image: linear-gradient(to bottom, rgba(0,0,0, 0.4), rgba(0,0,0,.4)), url(../img/header/png-imageopa.png); */
 
 
 #main-nav {
@@ -83,7 +83,38 @@ html, body {
 	font-style: italic;
 	margin-left: 10%;
 	margin-right: 10%;
+	color: #7F7F7F;
 }
 .services_text h1 {
 	text-transform: uppercase;
+}
+.content_services .icons {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+.content_services .icons .fa {
+	color: white;
+	background-color: #0ed8d6;
+	border: 1px solid #0ed8d6;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	font-size: 40px;
+	margin-bottom: 20px;
+	transition: all 0.7s;
+}
+.content_services .icons .fa:hover {
+	color: #0ed8d6;
+	background-color: white;
+	transform: rotate(360deg);
+}
+.content_services .icons p {
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #7F7F7F;
+}
+.content_services .icons h4 {
+	margin-bottom: 20px;
 }
